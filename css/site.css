@@ -1,0 +1,75 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.formDiv, #signinArea {
+  margin: 0px auto !important;
+  float:none !important;
+  display: block;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+          box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+.formDiv {
+  display:none;
+}
+
+h2 {
+  text-align:center;
+}
+
+#signinButton {
+  display: block;
+  margin: 0 auto;
+  background: #cc3732;
+  color: white;
+  width: 225px;
+  border-radius: 5px;
+}
+#signinButton:hover {
+  background: #e74b37;
+  cursor: hand;
+}
+#signinButton span.label {
+  font-weight: bold;
+}
+#signinButton span.icon {
+  background: url('http://developers.google.com/+/images/branding/btn_red_32.png') transparent 10px 50% no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+}
+#signinButton span.buttonText {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.built-by {
+    width: 300px;
+    text-align: center;
+    position:fixed;
+    left:50%;
+    margin: 0 0 0 -150px;
+    bottom:-5px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+       -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
